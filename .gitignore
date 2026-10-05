@@ -1,0 +1,372 @@
+# ConfigFiles Repository .gitignore
+# Generated for multi-platform configuration management project
+
+# ===============================
+# Notes and Logs
+# ===============================
+
+# Notes
+**/.Notes
+**/Notes.md
+**/Notes.txt
+
+.obsidian/
+
+# Logs
+**/.Logs
+
+# ================================
+# Operating System Files
+# ================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ================================
+# Backup and Temporary Files
+# ================================
+
+# Backup files
+*.backup
+*.bak
+*.orig
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+*#*#
+**.old
+
+# Script backup and utility files
+*_backup*
+*_clean*
+*backup*
+*clean*
+# Files with specific naming patterns
+*_NEW*
+*_OLD*
+*_backup*
+*_clean*
+*README_NEW*
+*README_OLD*
+
+
+# Log files
+*.log
+log.txt
+debug.log
+error.log
+
+# Crash dumps
+*.dmp
+core.*
+
+# ================================
+# PowerShell Specific
+# ================================
+
+# PowerShell execution logs
+PSReadLine*
+profile.ps1.backup
+
+# Module directories (if any get installed locally)
+Modules/
+PSModules/
+
+# ================================
+# Configuration Backups
+# ================================
+
+# Configuration backups
+*config.backup
+*.conf.backup
+*.json.backup
+*.toml.backup
+
+# ================================
+# IDE and Editor Files
+# ================================
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Vim
+.viminfo
+.netrwhist
+*~
+.*.swp
+.*.swo
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Atom
+.atom/
+
+# ================================
+# Development Tools
+# ================================
+
+# Git
+.git/
+*.patch
+*.diff
+
+# Node.js (if used for any build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Python (if used for any scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ================================
+# Personal/Sensitive Files
+# ================================
+
+# Personal information
+personal/
+private/
+secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# User-specific settings that shouldn't be shared
+user-settings.json
+personal-config.*
+local-config.*
+
+# SSH keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# ================================
+# Application Specific
+# ================================
+
+# Firefox profile specific files
+sessionstore.*
+places.sqlite*
+formhistory.sqlite
+cookies.sqlite
+permissions.sqlite
+content-prefs.sqlite
+webappsstore.sqlite
+
+# Terminal/Console history
+.bash_history
+.zsh_history
+.fish_history
+.powershell_history
+
+# Plasma/KDE specific
+plasma-org.kde.plasma.desktop-appletsrc.backup
+plasmashellrc.backup
+
+# Windows Terminal specific
+terminal-settings.backup.json
+
+# ================================
+# Test and Build Files
+# ================================
+
+# Test outputs
+test-results/
+test-output/
+coverage/
+
+# Build directories
+build/
+dist/
+out/
+
+# Package files
+*.deb
+*.rpm
+*.pkg
+*.dmg
+*.msi
+
+# ================================
+# Large Binary Files
+# ================================
+
+# Images (except essential theme files)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+# Exception: Keep theme-related images
+!Arch/grub/theme-assets/*.png
+!Win11/themes/**/*.png
+!icons/*.png
+!**/assets/*.png
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# Audio
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.m4a
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+# Exception: Keep cursor theme archives for portable installation
+!Win11/themes/cursors/**/cursors/*.zip
+
+# ================================
+# Documentation Build Files
+# ================================
+
+# LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.toc
+
+# Markdown processors
+*.html
+docs/_build/
+docs/build/
+
+# ================================
+# Miscellaneous
+# ================================
+
+# Thumbnails
+Thumbs.db
+thumbs.db
+
+# Files that might contain user info
+.gitconfig.local
+.env
+.env.local
+.env.*.local
+
+# Temporary download files
+*.part
+*.crdownload
+
+# Cache directories
+cache/
+.cache/
+tmp/
+
+# ================================
+# Project Specific Exclusions
+# ================================
+
+# Exclude test installations
+test-install/
+temp-config/
+
+# Exclude documentation exports
+exports/
+rendered/
+
+# Exclude performance logs
+performance-*.log
+benchmark-*.txt
+
+# ================================
+# Keep Important Files
+# ================================
+
+# Ensure these are never ignored
+!README.md
+!LICENSE
+!.gitignore
+!*.conf
+!*.config
+!*.ps1
+!*.sh
+!*.json
+!*.toml
+!*.lua
+!*.css
+!*.js
+!*.reg
+!*.md
