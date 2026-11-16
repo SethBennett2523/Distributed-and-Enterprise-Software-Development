@@ -369,5 +369,12 @@ benchmark-*.txt
 !*.js
 !*.reg
 !*.md
+!Diagrams/
+!Diagrams/**/*.png
+!Diagrams/**/*.svg
+!Diagrams/**/*.jpg
+!Diagrams/**/*.jpeg
+!Diagrams/**/*.gif
+!Diagrams/**/*.bmp
 
 junk/

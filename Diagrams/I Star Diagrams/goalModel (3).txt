@@ -1,0 +1,556 @@
+{
+  "actors": [
+    {
+      "id": "cec27d8e-bed9-497d-9b3c-2cac3e2e3898",
+      "text": "Customer",
+      "type": "istar.Actor",
+      "x": 604,
+      "y": 517,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "8791f112-afea-4883-80aa-8ba769174ddb",
+          "text": "Informed about affected order",
+          "type": "istar.Goal",
+          "x": 661,
+          "y": 524,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "748f6247-d8bf-4fa7-b776-b5836afac9f3",
+          "text": "Receive notification email",
+          "type": "istar.Task",
+          "x": 622,
+          "y": 607,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8e4e029c-f78f-40e7-a9cd-1e5f22276267",
+          "text": "Read notification email",
+          "type": "istar.Task",
+          "x": 723,
+          "y": 611,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "75915178-4b34-4773-84a7-e239d6ec7089",
+          "text": "Reply when requested",
+          "type": "istar.Task",
+          "x": 848,
+          "y": 608,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ffe5aeb1-22f8-4fb7-93bf-8b627725202b",
+          "text": "Requested reply provided",
+          "type": "istar.Goal",
+          "x": 827,
+          "y": 526,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "f895213b-f757-4eeb-8b6e-688eb9583d58",
+      "text": "Marketplace Representative",
+      "type": "istar.Actor",
+      "x": 506,
+      "y": 41,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "72733eff-226d-4618-bb1e-a4b849f9929f",
+          "text": "Required Replies Reviewed",
+          "type": "istar.Goal",
+          "x": 563,
+          "y": 264,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "53269952-4d5c-4c6a-a757-9676adb3cecb",
+          "text": "Receive customer response",
+          "type": "istar.Task",
+          "x": 696,
+          "y": 301,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ec5d1893-2e04-4b1d-a495-644a0b9cb82d",
+          "text": "Review Customer Response",
+          "type": "istar.Task",
+          "x": 692,
+          "y": 252,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "61d470de-393c-40db-a1ad-592ef32e540f",
+          "text": "Notification delivery verified",
+          "type": "istar.Goal",
+          "x": 568,
+          "y": 174,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d305558e-bfc0-4796-b516-c147a445d533",
+          "text": "Check whether all notification emails were delivered",
+          "type": "istar.Task",
+          "x": 711,
+          "y": 147,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7b76612c-045e-4f8c-b879-21efab1f113c",
+          "text": "Case closed after review",
+          "type": "istar.Goal",
+          "x": 570,
+          "y": 356,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e08da2da-1af1-4d28-9c05-662b4f74dc7d",
+          "text": "Close case. You already have the task for reviewing the reply",
+          "type": "istar.Task",
+          "x": 725,
+          "y": 355,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b71c5c25-41ed-4d00-a0dd-8a4c1bc2dafb",
+          "text": "Check whether emails were delivered",
+          "type": "istar.Task",
+          "x": 729,
+          "y": 196,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "dd5c046e-e157-470c-a007-c2c396c10fcc",
+          "text": "Affected-order list corrected",
+          "type": "istar.Goal",
+          "x": 572,
+          "y": 99,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "776084a5-6caa-426c-8f03-33f635536ec1",
+          "text": "Manually check orders in question",
+          "type": "istar.Task",
+          "x": 733,
+          "y": 53,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "974d307f-b14f-4c99-8793-76e5b511f47d",
+          "text": "Update list of affected orders.",
+          "type": "istar.Task",
+          "x": 734,
+          "y": 100,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "fe2fe1e3-6bb3-463b-a2bd-0fdb26bf0814",
+      "text": "Marketplace Administrator",
+      "type": "istar.Actor",
+      "x": 57,
+      "y": 608,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "8d60918b-6d5d-468c-a13f-a91c886c1364",
+          "text": "Affected customers notified",
+          "type": "istar.Goal",
+          "x": 120,
+          "y": 608,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c0217c68-b95c-4fed-8f85-44b237a11f0a",
+          "text": "Assess whether a reply is needed",
+          "type": "istar.Task",
+          "x": 57,
+          "y": 701,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "73323276-3d70-48f7-8a11-9eb62d73a3bf",
+          "text": "Send notification email",
+          "type": "istar.Task",
+          "x": 188,
+          "y": 721,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "555a8b69-e12d-4cb0-8b1e-8f9238178151",
+          "text": "Unresolved notifications followed up",
+          "type": "istar.Goal",
+          "x": 292,
+          "y": 615,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ec1094b3-fbe0-4b52-b7a2-356729217af4",
+          "text": "Follow up using customer details to support Unresolved notifications followed up",
+          "type": "istar.Task",
+          "x": 313,
+          "y": 680,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "abf2ef3c-2554-43e9-a360-79735ba950a6",
+      "text": "Marketplace System",
+      "type": "istar.Actor",
+      "x": 53,
+      "y": 196,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "7562888b-d2bb-4488-8eea-510ce3c520f3",
+          "text": "Affected orders and customers identified",
+          "type": "istar.Goal",
+          "x": 129,
+          "y": 199,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "782c1297-73b8-4e7a-91fd-e657cfc41638",
+          "text": "Indentify affected orders",
+          "type": "istar.Task",
+          "x": 57,
+          "y": 285,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "096928b5-7a08-4faf-afb7-e394bc62ea2a",
+          "text": "Identify affected orders",
+          "type": "istar.Task",
+          "x": 201,
+          "y": 281,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "adb0b82b-149e-4a95-b189-f9b5bd1a722e",
+      "text": "Affected customer list",
+      "type": "istar.Resource",
+      "x": 26,
+      "y": 406,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "fe2fe1e3-6bb3-463b-a2bd-0fdb26bf0814",
+      "target": "abf2ef3c-2554-43e9-a360-79735ba950a6"
+    },
+    {
+      "id": "93103a7b-9a23-4603-8214-ee2494d7f34b",
+      "text": "Notification Email",
+      "type": "istar.Resource",
+      "x": 112,
+      "y": 519,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cec27d8e-bed9-497d-9b3c-2cac3e2e3898",
+      "target": "fe2fe1e3-6bb3-463b-a2bd-0fdb26bf0814"
+    },
+    {
+      "id": "4a212547-7672-438e-a4bd-ce86102601bc",
+      "text": "Customer Reply",
+      "type": "istar.Resource",
+      "x": 405,
+      "y": 455,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "f895213b-f757-4eeb-8b6e-688eb9583d58",
+      "target": "cec27d8e-bed9-497d-9b3c-2cac3e2e3898"
+    }
+  ],
+  "links": [
+    {
+      "id": "14fe9afc-046a-40b8-a891-3a77df83e5cc",
+      "type": "istar.DependencyLink",
+      "source": "4a212547-7672-438e-a4bd-ce86102601bc",
+      "target": "cec27d8e-bed9-497d-9b3c-2cac3e2e3898"
+    },
+    {
+      "id": "3133694f-016a-4e51-a983-c4f086b0ed45",
+      "type": "istar.DependencyLink",
+      "source": "f895213b-f757-4eeb-8b6e-688eb9583d58",
+      "target": "4a212547-7672-438e-a4bd-ce86102601bc"
+    },
+    {
+      "id": "d27fac2a-77f2-41ff-9242-9a860e4ec16c",
+      "type": "istar.DependencyLink",
+      "source": "93103a7b-9a23-4603-8214-ee2494d7f34b",
+      "target": "fe2fe1e3-6bb3-463b-a2bd-0fdb26bf0814"
+    },
+    {
+      "id": "e2c50b1b-1712-40e5-83bd-d9868d30db6b",
+      "type": "istar.DependencyLink",
+      "source": "cec27d8e-bed9-497d-9b3c-2cac3e2e3898",
+      "target": "93103a7b-9a23-4603-8214-ee2494d7f34b"
+    },
+    {
+      "id": "ee4b59cf-61d2-4574-85cf-dace6d8b11dc",
+      "type": "istar.DependencyLink",
+      "source": "adb0b82b-149e-4a95-b189-f9b5bd1a722e",
+      "target": "abf2ef3c-2554-43e9-a360-79735ba950a6"
+    },
+    {
+      "id": "6b60af98-9e8b-4447-8e61-929d7f16d08b",
+      "type": "istar.DependencyLink",
+      "source": "fe2fe1e3-6bb3-463b-a2bd-0fdb26bf0814",
+      "target": "adb0b82b-149e-4a95-b189-f9b5bd1a722e"
+    },
+    {
+      "id": "0a69edd4-446e-42e8-a1b4-a848d47a9243",
+      "type": "istar.AndRefinementLink",
+      "source": "53269952-4d5c-4c6a-a757-9676adb3cecb",
+      "target": "72733eff-226d-4618-bb1e-a4b849f9929f"
+    },
+    {
+      "id": "5479fe0f-47ba-4aa2-9ad2-20269aaac3c6",
+      "type": "istar.AndRefinementLink",
+      "source": "ec5d1893-2e04-4b1d-a495-644a0b9cb82d",
+      "target": "72733eff-226d-4618-bb1e-a4b849f9929f"
+    },
+    {
+      "id": "90d19904-fe3e-4482-b820-cbc1075e16b1",
+      "type": "istar.AndRefinementLink",
+      "source": "c0217c68-b95c-4fed-8f85-44b237a11f0a",
+      "target": "8d60918b-6d5d-468c-a13f-a91c886c1364"
+    },
+    {
+      "id": "b80eb0c6-ead4-4a79-a83e-971694ae69e2",
+      "type": "istar.AndRefinementLink",
+      "source": "73323276-3d70-48f7-8a11-9eb62d73a3bf",
+      "target": "8d60918b-6d5d-468c-a13f-a91c886c1364"
+    },
+    {
+      "id": "1567a937-3044-459b-9485-9df4d91d1540",
+      "type": "istar.AndRefinementLink",
+      "source": "748f6247-d8bf-4fa7-b776-b5836afac9f3",
+      "target": "8791f112-afea-4883-80aa-8ba769174ddb"
+    },
+    {
+      "id": "effe46a6-3c57-45c3-9069-4b72ed9e7b43",
+      "type": "istar.AndRefinementLink",
+      "source": "8e4e029c-f78f-40e7-a9cd-1e5f22276267",
+      "target": "8791f112-afea-4883-80aa-8ba769174ddb"
+    },
+    {
+      "id": "7e9aebd2-7d20-418c-9705-00a583478473",
+      "type": "istar.AndRefinementLink",
+      "source": "776084a5-6caa-426c-8f03-33f635536ec1",
+      "target": "dd5c046e-e157-470c-a007-c2c396c10fcc"
+    },
+    {
+      "id": "288f1900-b699-4a84-b3be-d8a8f110b27a",
+      "type": "istar.AndRefinementLink",
+      "source": "974d307f-b14f-4c99-8793-76e5b511f47d",
+      "target": "dd5c046e-e157-470c-a007-c2c396c10fcc"
+    },
+    {
+      "id": "21660217-21d9-4483-a6d2-10a485f126f3",
+      "type": "istar.AndRefinementLink",
+      "source": "782c1297-73b8-4e7a-91fd-e657cfc41638",
+      "target": "7562888b-d2bb-4488-8eea-510ce3c520f3"
+    },
+    {
+      "id": "c040bad2-e07c-40b1-be76-b631d4204afd",
+      "type": "istar.AndRefinementLink",
+      "source": "096928b5-7a08-4faf-afb7-e394bc62ea2a",
+      "target": "7562888b-d2bb-4488-8eea-510ce3c520f3"
+    },
+    {
+      "id": "0a19da8e-2ec0-4fbd-a282-bbd126614dc5",
+      "type": "istar.AndRefinementLink",
+      "source": "ec1094b3-fbe0-4b52-b7a2-356729217af4",
+      "target": "555a8b69-e12d-4cb0-8b1e-8f9238178151"
+    },
+    {
+      "id": "82892d2a-baeb-4aa4-8b5e-51c8bca1547c",
+      "type": "istar.AndRefinementLink",
+      "source": "e08da2da-1af1-4d28-9c05-662b4f74dc7d",
+      "target": "7b76612c-045e-4f8c-b879-21efab1f113c"
+    },
+    {
+      "id": "72537d9f-b856-49fb-aaef-3b3fac933fc5",
+      "type": "istar.AndRefinementLink",
+      "source": "d305558e-bfc0-4796-b516-c147a445d533",
+      "target": "61d470de-393c-40db-a1ad-592ef32e540f"
+    },
+    {
+      "id": "4cc0cf5a-67ae-4527-8f5b-20b88e647788",
+      "type": "istar.AndRefinementLink",
+      "source": "b71c5c25-41ed-4d00-a0dd-8a4c1bc2dafb",
+      "target": "61d470de-393c-40db-a1ad-592ef32e540f"
+    },
+    {
+      "id": "2bc4b0ae-e727-4758-92f1-f688b6e0e6b4",
+      "type": "istar.AndRefinementLink",
+      "source": "75915178-4b34-4773-84a7-e239d6ec7089",
+      "target": "ffe5aeb1-22f8-4fb7-93bf-8b627725202b"
+    }
+  ],
+  "display": {
+    "8791f112-afea-4883-80aa-8ba769174ddb": {
+      "width": 121.3515625,
+      "height": 47.2265625
+    },
+    "ffe5aeb1-22f8-4fb7-93bf-8b627725202b": {
+      "width": 105.984375,
+      "height": 45.5078125
+    },
+    "72733eff-226d-4618-bb1e-a4b849f9929f": {
+      "width": 96.3515625,
+      "height": 69.2265625
+    },
+    "61d470de-393c-40db-a1ad-592ef32e540f": {
+      "width": 112.3515625,
+      "height": 59.2265625
+    },
+    "d305558e-bfc0-4796-b516-c147a445d533": {
+      "width": 169.3515625,
+      "height": 41.2265625
+    },
+    "7b76612c-045e-4f8c-b879-21efab1f113c": {
+      "width": 99.3515625,
+      "height": 48.2265625
+    },
+    "e08da2da-1af1-4d28-9c05-662b4f74dc7d": {
+      "width": 159.3515625,
+      "height": 74.2265625
+    },
+    "b71c5c25-41ed-4d00-a0dd-8a4c1bc2dafb": {
+      "width": 162.8515625,
+      "height": 51.2265625
+    },
+    "dd5c046e-e157-470c-a007-c2c396c10fcc": {
+      "width": 113.3515625,
+      "height": 33.2265625
+    },
+    "776084a5-6caa-426c-8f03-33f635536ec1": {
+      "width": 124.3515625,
+      "height": 39.2265625
+    },
+    "974d307f-b14f-4c99-8793-76e5b511f47d": {
+      "width": 142.3515625,
+      "height": 38.2265625
+    },
+    "8d60918b-6d5d-468c-a13f-a91c886c1364": {
+      "width": 147.3515625,
+      "height": 60.2265625
+    },
+    "c0217c68-b95c-4fed-8f85-44b237a11f0a": {
+      "width": 129.3515625,
+      "height": 62.2265625
+    },
+    "73323276-3d70-48f7-8a11-9eb62d73a3bf": {
+      "width": 133.3515625,
+      "height": 39.2265625
+    },
+    "555a8b69-e12d-4cb0-8b1e-8f9238178151": {
+      "width": 136.3515625,
+      "height": 39.2265625
+    },
+    "ec1094b3-fbe0-4b52-b7a2-356729217af4": {
+      "width": 207.8515625,
+      "height": 68.2265625
+    },
+    "7562888b-d2bb-4488-8eea-510ce3c520f3": {
+      "width": 228.3515625,
+      "height": 44.2265625
+    },
+    "782c1297-73b8-4e7a-91fd-e657cfc41638": {
+      "width": 135.3515625,
+      "height": 48.2265625
+    },
+    "096928b5-7a08-4faf-afb7-e394bc62ea2a": {
+      "width": 168.3515625,
+      "height": 57.2265625
+    },
+    "e2c50b1b-1712-40e5-83bd-d9868d30db6b": {
+      "vertices": [
+        {
+          "x": 376,
+          "y": 539
+        }
+      ]
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Mon, 16 Nov 2026 12:59:18 GMT",
+  "diagram": {
+    "width": 1118,
+    "height": 866,
+    "name": "Strategic Rationale Model",
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}
